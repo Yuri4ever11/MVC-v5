@@ -27,32 +27,39 @@ MCV-v5 (Multi-Model Vision Classifier-CNN Version 5) 是一个基于深度学习
 
 
 **1. 创建虚拟环境:**
+1. 创建虚拟环境:
 
-```bash
-conda create -n MVC python=3.8
+    ```bash
+    conda create -n MVC python=3.8
+    ```
 
-**2.创建一个名为 MVC 的虚拟环境，并指定 Python 版本为 3.8:**
-```bash
-conda create -n MVC python=3.8
+2. 激活虚拟环境:
 
+    ```bash
+    conda activate MVC
+    ```
 
+3. 克隆项目:
 
+    ```bash
+    cd <克隆的地址>
+    ```
 
-# 2创建一个名为 MVC 的虚拟环境，并指定 Python 版本为 3.8
-conda create -n MVC python=3.8
+4. 安装依赖包:
 
-# 激活虚拟环境
-conda activate MVC
+    ```bash
+    conda install --file requirements.txt
+    ```
 
-# 到你项目克隆的位置
-cd +克隆的地址
+5. 退出虚拟环境:
 
-# 安装 requirements.txt 文件中列出的所有包
-conda install --file requirements.txt
+    ```bash
+    conda deactivate
+    ```
 
-# 退出虚拟环境
-conda deactivate
+## 注意事项
 
+本项目代码仍在不断完善中，可能存在一些不足之处。欢迎提出宝贵意见和建议，共同改进项目。
 
 
 
