@@ -24,9 +24,6 @@ MCV-v5 (Multi-Model Vision Classifier-CNN Version 5) 是一个基于深度学习
 
 ## 使用说明
 
-
-
-**1. 创建虚拟环境:**
 1. 创建虚拟环境:
 
     ```bash
